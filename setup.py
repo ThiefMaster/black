@@ -46,7 +46,7 @@ else:
     ext_modules = []
 
 setup(
-    name="black",
+    name="blacksin",
     use_scm_version={
         "write_to": "src/_black_version.py",
         "write_to_template": 'version = "{version}"\n',

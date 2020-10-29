@@ -1,17 +1,22 @@
+> **This is a fork which adds an option to prefer single quotes. Nothing else has been
+> changed.**
+>
+> Its cli is still called `black`, but the distribution name to use in `pip install` is
+> named `blacksin` (because some people may consider a single-quote fork a mortal sin,
+> and single quotes...)
+
 ![Black Logo](https://raw.githubusercontent.com/psf/black/master/docs/_static/logo2-readme.png)
 
-<h2 align="center">The Uncompromising Code Formatter</h2>
+<h2 align="center">The 'Uncompromising' Code Formatter</h2>
 
 <p align="center">
-<a href="https://travis-ci.com/psf/black"><img alt="Build Status" src="https://travis-ci.com/psf/black.svg?branch=master"></a>
-<a href="https://github.com/psf/black/actions"><img alt="Actions Status" src="https://github.com/psf/black/workflows/Test/badge.svg"></a>
-<a href="https://github.com/psf/black/actions"><img alt="Actions Status" src="https://github.com/psf/black/workflows/Primer/badge.svg"></a>
-<a href="https://black.readthedocs.io/en/stable/?badge=stable"><img alt="Documentation Status" src="https://readthedocs.org/projects/black/badge/?version=stable"></a>
-<a href="https://coveralls.io/github/psf/black?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/psf/black/badge.svg?branch=master"></a>
-<a href="https://github.com/psf/black/blob/master/LICENSE"><img alt="License: MIT" src="https://black.readthedocs.io/en/stable/_static/license.svg"></a>
-<a href="https://pypi.org/project/black/"><img alt="PyPI" src="https://img.shields.io/pypi/v/black"></a>
-<a href="https://pepy.tech/project/black"><img alt="Downloads" src="https://pepy.tech/badge/black"></a>
-<a href="https://anaconda.org/conda-forge/black/"><img alt="conda-forge" src="https://img.shields.io/conda/dn/conda-forge/black.svg?label=conda-forge"></a>
+<a href="https://travis-ci.com/ThiefMaster/blacksin"><img alt="Build Status" src="https://travis-ci.com/ThiefMaster/blacksin.svg?branch=single"></a>
+<a href="https://github.com/ThiefMaster/blacksin/actions"><img alt="Actions Status" src="https://github.com/ThiefMaster/blacksin/workflows/Test/badge.svg"></a>
+<a href="https://github.com/ThiefMaster/blacksin/actions"><img alt="Actions Status" src="https://github.com/ThiefMaster/blacksin/workflows/Primer/badge.svg"></a>
+<a href="https://coveralls.io/github/ThiefMaster/blacksin?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/ThiefMaster/blacksin/badge.svg?branch=master"></a>
+<a href="https://github.com/ThiefMaster/blacksin/blob/master/LICENSE"><img alt="License: MIT" src="https://black.readthedocs.io/en/stable/_static/license.svg"></a>
+<a href="https://pypi.org/project/blacksin/"><img alt="PyPI" src="https://img.shields.io/pypi/v/blacksin"></a>
+<a href="https://pepy.tech/project/blacksin"><img alt="Downloads" src="https://pepy.tech/badge/blacksin"></a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
@@ -49,14 +54,14 @@ _Contents:_ **[Installation and usage](#installation-and-usage)** |
 
 ### Installation
 
-_Black_ can be installed by running `pip install black`. It requires Python 3.6.0+ to
+_Black_ can be installed by running `pip install blacksin`. It requires Python 3.6.0+ to
 run but you can reformat Python 2 code with it, too.
 
 #### Install from GitHub
 
 If you can't wait for the latest _hotness_ and want to install from GitHub, use:
 
-`pip install git+git://github.com/psf/black`
+`pip install git+git://github.com/ThiefMaster/blacksin`
 
 ### Usage
 
